@@ -76,7 +76,7 @@ Hello, World! from thread 3
 ### Note:
 - You might notice weird outputs when printing from inside the parallel region. This is normal because the output isn't synchronized between threads, causing multiple threads to write to `std::cout` at the same time, leading to interleaved or mixed output.
 
-### Steps to Run the "Matrix multiplication script":
+### Steps to Run the "Prime Number Counting script":
 1. Locate the file named `prime_num_counting.cpp` that has been partially implemented for you.
 
 2. Using the reference guide call on the functions needed to complete the program.
